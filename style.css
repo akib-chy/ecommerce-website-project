@@ -248,9 +248,13 @@ footer a:hover {
 
 /* RESPONSIVE-MEDIA-SECTION */
 @media only screen and (max-width: 450px) {
+  .sticky {
+    top: -94px;
+  }
   .container {
     width: 90%;
   }
+
   header label {
     padding: 15px;
   }
